@@ -3,7 +3,7 @@ void merge(int arr[], int ll, int mid, int ul)
 {
     int i, j, k;
     int l1 = mid - ll + 1;
-    int l2 = ul - ll;
+    int l2 = ul - mid;
     int arr1[l1], arr2[l2];
     for (i = 0; i < l1; i++)
     {
